@@ -1,10 +1,10 @@
 <script>
+    age = 15
+    maxage = 40
 
-    age = 40 
-    maxage = 120
+    numPerDay = 1
 
-    numPerDay = 0.143 
-    totalRequired = (numPerDay * 365) * (maxage - age) 
+    total = numPerDay * 365 * (maxage - age)
 
-    document.write("You get to date " + totalRequired + " times before you reach the age of " + maxage + ".");
+    document.write("You will play " + total + " more games of volleyball in your lifetime.");
 </script>
